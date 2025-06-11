@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Baloo 2", cursive, sans-serif;
+  background: linear-gradient(135deg, #f9d423 0%, #ff4e50 100%);
+  min-height: 100vh;
+  margin: 0;
+}
+
+main {
+  max-width: 900px;
+  margin: auto;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #fff3e0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  padding: 1rem 2rem;
+  border-radius: 0 0 20px 20px;
+}
+
+ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+li {
+  margin-right: 1rem;
+}
+
+h1 {
+  color: #e74c3c;
+  margin-bottom: 0.5rem;
+}
+
+.hero {
+  text-align: center;
+  margin: 2rem 0 1rem 0;
+  color: #fff;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.card {
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.08);
+  width: 220px;
+  padding: 1.5rem 1rem 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-8px) scale(1.04);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.15);
+}
+
+.card--img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  border: 4px solid #ffe082;
+}
+
+.card--title {
+  font-size: 1.3rem;
+  margin: 0.5rem 0;
+  color: #db4938;
+}
+
+.card--link {
+  background: #db4938;
+  color: #fff;
+  padding: 0.5rem 1.2rem;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 0.5rem;
+  transition: background 0.2s;
+}
+
+.card--link:hover {
+  background: #f9d423;
+  color: #db4938;
+}
+/*# sourceMappingURL=style.css.map */
